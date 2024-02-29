@@ -23,7 +23,7 @@ const items = [
   },
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
+    color: "from-violet-300 to-green-300",
     title: "Nike App",
     desc: "Step into greatness with Nike's iconic shoes. Engineered for performance and style, our footwear redefines athleticism, empowering you to unleash your full potential.",
     img: "/Nike logo.png",
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
+    color: "from-green-300 to-orange-300",
     title: "Snapgram App",
     desc: "Connect with friends, share moments, and explore interests with our dynamic social media app. Stay connected, express yourself, and discover new communities effortlessly.",
     img: "/snapgram.png",
@@ -39,7 +39,7 @@ const items = [
   },
   {
     id: 5,
-    color: "from-violet-300 to-purple-300",
+    color: "from-orange-300 to-indigo-300",
     title: "Shoppy app",
     desc: "This administrative dashboard on Shoppy app provides real-time insights into sales, customer behavior, inventory levels, and marketing performance, empowering efficient decision-making for e-commerce businesses.",
     img: "/shoppy app.png",
@@ -70,13 +70,13 @@ const PortfolioPage = () => {
             {items.map((item) => (
               <div
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
-                key={item.id}
+                key={item.id} 
               >
                 <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
+                  <h1 className="text-xl font-bold md:text-4xl lg:text-3xl xl:text-4xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
+                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[330px] lg:h-[180px] xl:w-[430px] xl:h-[250px]">
                     <Image src={item.img} alt="" fill />
                   </div>
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
