@@ -94,18 +94,6 @@ const Navbar = () => {
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>

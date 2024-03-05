@@ -41,7 +41,7 @@ const items = [
     id: 5,
     color: "from-orange-300 to-indigo-300",
     title: "Shoppy app",
-    desc: "This administrative dashboard on Shoppy app provides real-time insights into sales, customer behavior, inventory levels, and marketing performance, empowering efficient decision-making for e-commerce businesses.",
+    desc: "Real-time insights on sales, customer behavior, inventory, and marketing empower e-commerce decision-making via Shoppy app's admin dashboard.",
     img: "/shoppy app.png",
     link: "https://shoppy-app-six.vercel.app/",
   }, 
@@ -50,9 +50,18 @@ const items = [
     color: "from-orange-300 to-indigo-300",
     title: "Social media  app",
     desc: "Introducing a dynamic social media platform where you can connect, share, and explore with ease. Join our vibrant community and start your journey today!",
-    img: "/allan app.png",
+    img: "/social app.png",
     link: "https://social-media-app-mu-three.vercel.app/",
   }, 
+  {
+    id: 7,
+    color: "from-violet-300 to-green-300",
+    title: "Brainwave",
+    desc: "Experience seamless communication with an AI-powered chat app by OpenAI. Engage in natural conversations and get instant, personalized responses. Elevate your user experience today!",
+    img: "/brainwave2.png",
+    link: "https://brainwave-sandy.vercel.app/",
+  },
+
 
 ];
 
@@ -60,7 +69,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["5%", "-100%"]);
 
   return ( 
     <motion.div
