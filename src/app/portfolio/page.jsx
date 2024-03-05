@@ -45,6 +45,15 @@ const items = [
     img: "/shoppy app.png",
     link: "https://shoppy-app-six.vercel.app/",
   }, 
+  {
+    id: 6,
+    color: "from-orange-300 to-indigo-300",
+    title: "Social media  app",
+    desc: "Introducing a dynamic social media platform where you can connect, share, and explore with ease. Join our vibrant community and start your journey today!",
+    img: "/allan app.png",
+    link: "https://social-media-app-mu-three.vercel.app/",
+  }, 
+
 ];
 
 const PortfolioPage = () => {
