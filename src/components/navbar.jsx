@@ -90,10 +90,10 @@ const Navbar = () => {
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link href="https://github.com/AllanWachira18">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://www.linkedin.com/in/allan-wachira-05069017b/?trk=public_profile-settings_edit-profile-content&originalSubdomain=ke">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>

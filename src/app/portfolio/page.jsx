@@ -15,7 +15,7 @@ const items = [
   },
   {
     id: 2,
-    color: "from-blue-300 to-violet-300",
+    color: "from-blue-300 to-yellow-300",
     title: "Travel App",
     desc: "Experience the ultimate adventure companion! Our travel app ensures you never get lost on nature walks or camps, offering offline maps, adventure scheduling, and precise destination guidance.",
     img: "/Travel app.png",
@@ -23,7 +23,7 @@ const items = [
   },
   {
     id: 3,
-    color: "from-violet-300 to-green-300",
+    color: "from-yellow-300 to-green-300",
     title: "Nike App",
     desc: "Step into greatness with Nike's iconic shoes. Engineered for performance and style, our footwear redefines athleticism, empowering you to unleash your full potential.",
     img: "/Nike logo.png",
@@ -39,7 +39,7 @@ const items = [
   },
   {
     id: 5,
-    color: "from-orange-300 to-indigo-300",
+    color: "from-orange-300 to-coral-300",
     title: "Shoppy app",
     desc: "Real-time insights on sales, customer behavior, inventory, and marketing empower e-commerce decision-making via Shoppy app's admin dashboard.",
     img: "/shoppy app.png",
@@ -47,7 +47,7 @@ const items = [
   }, 
   {
     id: 6,
-    color: "from-orange-300 to-indigo-300",
+    color: "from-teal-300 to-pink-300",
     title: "Social media  app",
     desc: "Introducing a dynamic social media platform where you can connect, share, and explore with ease. Join our vibrant community and start your journey today!",
     img: "/social app.png",
@@ -55,7 +55,7 @@ const items = [
   }, 
   {
     id: 7,
-    color: "from-violet-300 to-green-300",
+    color: "from-pink-300 to-violet-300",
     title: "Brainwave",
     desc: "Experience seamless communication with an AI-powered chat app by OpenAI. Engage in natural conversations and get instant, personalized responses. Elevate your user experience today!",
     img: "/brainwave2.png",
